@@ -1,0 +1,23 @@
+{
+  "name": "@flowsydev/create-app",
+  "version": "0.1.0-dev",
+  "description": "Flowsy Application Starter Tool",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "pub": "npm publish --access public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tool",
+    "initializer"
+  ],
+  "author": "Adrián Avilés",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.1.5",
+    "nanospinner": "^1.1.0"
+  }
+}
